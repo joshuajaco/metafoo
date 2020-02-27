@@ -1,0 +1,37 @@
+{
+  "name": "metafoo",
+  "version": "1.33.7",
+  "license": "MIT",
+  "author": "Joshua Jacobowitz <joshua.jacobowitz@yahoo.de>",
+  "main": "index.js",
+  "prettier": "@joshuajaco/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuajaco/metafoo.git"
+  },
+  "keywords": [
+    "meta",
+    "metafoo",
+    "metaprogramming",
+    "meta-programming"
+  ],
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,md}\" --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "is-number": "^7.0.0",
+    "leven": "^3.1.0",
+    "words-to-numbers": "^1.5.1"
+  },
+  "devDependencies": {
+    "@joshuajaco/prettier-config": "^1.0.1",
+    "prettier": "^1.19.1"
+  }
+}
